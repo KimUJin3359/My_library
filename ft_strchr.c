@@ -6,7 +6,7 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 15:51:34 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/21 15:53:54 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/21 16:02:32 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@ char	*strchr(const char *s, int c)
 	while (i < len)
 	{
 		if (s[i] == (char)c)
-			return (&s[i]);
+			return ((char *)(s + i));
 		i++;
 	}
 	if (c == 0)
-		return (&s[i]);
+		return ((char *)(s + i));
 	return (NULL);
 }

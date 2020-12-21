@@ -6,7 +6,7 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 15:52:19 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/21 15:52:21 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/21 15:59:54 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,7 @@ void	ft_bzero(void *s, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		s[i] = 0;
+		((unsigned char *)s)[i] = 0;
 		i++;
 	}
-	return (s);
 }
