@@ -6,13 +6,13 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 15:53:12 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/21 15:53:14 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/21 16:33:44 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_lower(int c)
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		c += 32;

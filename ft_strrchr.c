@@ -6,13 +6,13 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 15:52:00 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/21 16:05:20 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/21 16:33:17 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
 	size_t len;
 	size_t i;

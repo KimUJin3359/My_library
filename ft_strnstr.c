@@ -6,13 +6,13 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 15:53:04 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/21 16:04:04 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/21 16:35:01 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strnstr(const char *src, const char *find, size_t len)
+char	*ft_strnstr(const char *src, const char *find, size_t len)
 {
 	size_t i;
 	size_t j;
