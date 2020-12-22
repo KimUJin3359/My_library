@@ -6,7 +6,7 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 15:52:48 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/21 15:52:50 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/22 18:27:59 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ size_t		ft_strlcat(char *dest, char *src, size_t size)
 		dest[len + i] = src[i];
 		i++;
 	}
-	dest[len + i] = '\0';
+	dest[len + i] = 0;
 	size = (size >= len) ? len : size;
 	return (size + ft_strlen(src));
 }
