@@ -6,7 +6,7 @@
 /*   By: woojikim <woojikim@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 23:21:21 by woojikim          #+#    #+#             */
-/*   Updated: 2020/12/22 15:38:14 by woojikim         ###   ########.fr       */
+/*   Updated: 2020/12/22 18:45:24 by woojikim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,18 +38,10 @@ char		*ft_strtrim(char const *s1, char const *set)
 	while (s1[i] && ft_strchr(set, s1[i]))
 		i++;
 	j = ft_strlen(s1) - 1;
-	while (s1[j] && ft_strchr(set, s1[j]))
+	while (s1[j] && ft_strchr(set, s1[j]) && i < j)
 		j--;
-	if (i > j)
-	{
-		if (!(dst = (char *)malloc(sizeof(char) * 2)))
-			return (NULL);
-	}
-	else
-	{
-		if (!(dst = (char *)malloc(sizeof(char) * (j - i + 2))))
-			return (NULL);
-	}
+	if (!(dst = (char *)malloc(sizeof(char) * (j - i + 2))))
+		return (NULL);
 	ft_insert(i, j, dst, s1);
 	return (dst);
 }
