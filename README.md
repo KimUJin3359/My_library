@@ -4,7 +4,7 @@ This is a project from 20.12.21 ~ 20.12.23
 
 ### summary
 
-make your library
+make my library
 
 ### subject
 
