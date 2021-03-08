@@ -1,15 +1,14 @@
-# Libft
+# My Library
 
-This is a project from 20.12.21 ~ 20.12.23
+### Project
 
-### summary
+This is a project making my own library.
 
-make my library
+The function is based on a man page.
 
-### subject
+### [Explanation](https://velog.io/@woojikim/Libft)
 
-[en.subject](https://github.com/KimUJin3359/Libft/blob/master/en.subject.pdf)
-
-### velog 
-
-[velog by woojikim](https://velog.io/@woojikim/Libft)
+#### Helps
+| type | people | content |
+| --- | --- | --- |
+| explanation | [ljiwoo59](https://github.com/ljiwoo59) | [For more Information About My_Library](https://velog.io/@ljiwoo59/Libft) |
